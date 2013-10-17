@@ -1,0 +1,18 @@
+{
+  "name": "Errati-tests",
+  "version": "0.9.0",
+  "description": "Tests for errati",
+  "main": "test.js",
+  "dependencies": {
+    "chai": "~1.8.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": "",
+  "author": "Mikael <mikael@smwht.org>",
+  "license": "BSD"
+}

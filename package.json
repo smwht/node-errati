@@ -1,0 +1,35 @@
+{
+  "name": "Errati",
+  "version": "0.9.0",
+  "description": "Errati is a flexible errors index for NodeJS",
+  "author": "Mikael Konttinen",
+  "license": "BSD",
+  "keywords": [
+    "error",
+    "errors",
+    "index",
+    "dictionary",
+    "http",
+    "http errors",
+    "http codes"
+  ],
+  "main": "errati.js",
+  "readmeFilename": "README.md",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smwht/node-errati.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smwht/node-errati/issues"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "echo \"Tests are in ./test\" && exit 1"
+  }
+}
