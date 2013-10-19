@@ -1,6 +1,12 @@
 # Errati
 
-Errati is a flexible errors index for NodeJS. It is style agnostic and aims to be adapted to the developers needs instead of the other way round. There are no dependencies and no learning curve to speak of. Register your errors from a dictionary (or use the provided HTTP Standard Codes) and you are ready to go.
+Errati is a flexible errors index for NodeJS that helps you to use the Node callback pattern to its fullest. It helps the developer to use errors as active messangers that are consistent through the application. 
+
+At its simplest use, it helps you use a standardized set of errors and ease development, debugging and feedback. In more complex use, it enables custom values to be passed in an expected manner, to process errors and take action through the backtracking of callbacks and automatically take appropriate actions when errors are instantiated. 
+
+All of this is done "define once, use everywhere" with straight forward Javascript syntax. 
+
+Errati is style agnostic and aims to be adapted to the developers needs instead of the other way round. There are no dependencies and no learning curve to speak of. Register your errors from a dictionary (or use the provided HTTP Standard Codes) and you are ready to go.
 
 The design goals are:
 
@@ -8,6 +14,8 @@ The design goals are:
 2. Flexibility
 3. Ease of use
 
+Use case example:  
+A module instantiates an error due to a failed user request. The error is populated with default and custom values. It is propagated back through the callback chain where actions may be triggered and additional data is added to the error instace. Finally one set of error data is returned to the user, while another set of data is logged. For severe actions, instantiation is extended with a function to notify somebody responsible to take immediate action. 
 
 Released under BSD licence.  
 Mikael Konttinen / Somewhat Original.
@@ -592,6 +600,6 @@ I'm considering a plugin system to make Errati easier to extend with third party
 ## Change log
 
 0.9.0
-Going public! Release candidate for version 1.0.0
-Documentation.
-Tests.
+Going public! Release candidate for version 1.0.0  
+Documentation.  
+Tests.  
