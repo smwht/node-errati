@@ -1,6 +1,6 @@
 {
   "name": "errati",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Errati is a flexible errors index for NodeJS",
   "author": "Mikael Konttinen",
   "license": "BSD",

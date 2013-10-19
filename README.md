@@ -599,6 +599,10 @@ I'm considering a plugin system to make Errati easier to extend with third party
 
 ## Change log
 
+0.9.1  
+Changes to the README.md.  
+Bumped version to adhere to NPM standards.
+
 0.9.0
 Going public! Release candidate for version 1.0.0  
 Documentation.  
